@@ -1678,7 +1678,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 /*# sourceMappingURL=style.css.map */
 
-#logo-container {
+/* #logo-container {
   float: left;
   height: 100%;
   width: 100px;
@@ -1687,7 +1687,7 @@ h1, h2, h3, h4, h5, h6, figure {
   align-items: center;
   flex-direction: row;
   gap: 0;
-  padding-bottom: 100px;
+  margin-left: -10%;
 }
 #logo-container span {
   line-height: calc(10vh - 2.5vh);
@@ -1697,5 +1697,5 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #logo-container img {
   width: 70%;
-  height: 50%;
-}
+  height: auto;
+} */
