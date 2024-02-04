@@ -1699,3 +1699,21 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 70%;
   height: auto;
 } */
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.6);
+}
+
+.referral-box {
+  padding-top: 5%;
+}
