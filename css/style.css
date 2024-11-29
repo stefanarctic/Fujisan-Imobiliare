@@ -830,14 +830,20 @@ hr {
 }
 
 .fh5co-property {
+  all: unset;
   background: #fff;
   text-align: left;
   width: 100%;
-  height: 550px;
+  min-height: 550px;
   float: left;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
   -ms-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
   -o-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+}
+.fh5co-property:hover {
+  transform: translateX(0px) translateY(-10px);
 }
 .fh5co-property figure {
   margin-bottom: 0;
@@ -1357,6 +1363,15 @@ hr {
   width: 100%;
   position: relative;
   background: #333333;
+  padding-bottom: 0px;
+}
+#fh5co-footer .container .info-container {
+  display: flex;
+  flex-direction: row;
+}
+#fh5co-footer .container .info-container .col {
+  width: auto;
+  flex: 1;
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer {
